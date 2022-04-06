@@ -9,8 +9,11 @@ public class InterpretadorGeeks : MonoBehaviour
     // variável que guarda a carta que será interpretada
     public GeeksCard carta;
 
+
     // objetos na tela que vão desenhar as informações
     public Text nomeT, banidoT, orelhaT, effT, tamanhoT, twitT, NUT;
+
+    // Text (variável complexa) vs string (variável simples)
 
     // Start is called before the first frame update
     void Start()
